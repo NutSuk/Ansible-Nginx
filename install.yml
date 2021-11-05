@@ -1,6 +1,6 @@
 ---
 # file: install.yml
-- hosts: localhost
+- hosts: all
   roles:
     - pre-install
     - install
